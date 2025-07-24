@@ -6,7 +6,7 @@ authors = [
     {name = "Daniel O. Delgado",email = "danielo.delgado@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10,<3.14"
 dependencies = [
 ]
 
@@ -16,6 +16,9 @@ packages = [{include = "portable_tool", from = "src"}]
 [tool.poetry.scripts]
 portable-tool = "portable_tool.main:main"
 
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.14.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
