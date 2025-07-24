@@ -13,6 +13,9 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "portable_tool", from = "src"}]
 
+[tool.poetry.scripts]
+portable-tool = "portable_tool.main:main"
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
