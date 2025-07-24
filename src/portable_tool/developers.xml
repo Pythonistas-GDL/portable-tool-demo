@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<developers>
+    <developer>
+        <id>1</id>
+        <name>Alice Smith</name>
+        <language>Python</language>
+        <experience>5</experience>
+        <available>true</available>
+    </developer>
+    <developer>
+        <id>2</id>
+        <name>Bob Johnson</name>
+        <language>JavaScript</language>
+        <experience>3</experience>
+        <available>false</available>
+    </developer>
+    <developer>
+        <id>3</id>
+        <name>Carol Lee</name>
+        <language>Java</language>
+        <experience>7</experience>
+        <available>true</available>
+    </developer>
+</developers>
